@@ -1,0 +1,391 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Oi", "Olá", "Como vai?", "Bom dia", "Boa tarde"],
+      "responses": [
+        "Olá, como posso ajudar?",
+        "Oi, em que posso ser útil?",
+        "Olá! O que você precisa?",
+        "Bom dia! Como posso ajudar?",
+        "Olá, seja bem-vindo!",
+        "Oi! Estou aqui para responder suas perguntas.",
+        "Oi! Como posso tornar o seu dia melhor?",
+        "Bom dia! O que posso fazer por você?"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "data_atual",
+      "patterns": [
+        "Qual é a data de hoje?",
+        "Que dia é hoje?",
+        "Pode me dizer a data atual?"
+      ],
+      "responses": [
+        "Hoje é {data_atual}.",
+        "A data atual é {data_atual}.",
+        "Estamos no dia {data_atual}.",
+        "Hoje é {data_atual}, aproveite!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "openai",
+      "patterns": [
+        "O que é a OpenAI?",
+        "Quem é a OpenAI?",
+        "Quais são os projetos da OpenAI?"
+      ],
+      "responses": [
+        "A OpenAI é uma empresa de pesquisa em inteligência artificial fundada em 2015. Ela tem como objetivo desenvolver IA amigável e benéfica para a humanidade. A empresa trabalha em vários projetos inovadores, como o desenvolvimento de modelos de linguagem poderosos, como o GPT-3, e a pesquisa em IA geral, robótica e outras áreas.",
+        "A OpenAI é uma organização de pesquisa em inteligência artificial. Ela se dedica a desenvolver tecnologias avançadas de IA para beneficiar a sociedade. A empresa é conhecida por projetos como o GPT-3, que é um modelo de linguagem de última geração capaz de gerar texto altamente coerente e realista.",
+        "Fundada em 2015, a OpenAI é uma empresa líder em pesquisa em inteligência artificial. Seu foco principal é a criação e o avanço de IA segura e benéfica. A OpenAI trabalha em diversos projetos, incluindo modelos de linguagem de última geração, como o GPT-3, e soluções inovadoras para desafios da IA.",
+        "A OpenAI é uma empresa de pesquisa em IA que busca desenvolver tecnologias de IA avançadas de forma ética e responsável. Ela está envolvida em diversos projetos, como o GPT-3, que é um dos modelos de linguagem mais poderosos e versáteis já criados. A OpenAI também se dedica a promover a transparência e a segurança na implementação de IA em diversos setores."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "entityai",
+      "patterns": [
+        "Quem criou este chatbot?",
+        "Qual é a empresa por trás deste chatbot?",
+        "De onde veio este chatbot?"
+      ],
+      "responses": [
+        "Este chatbot foi criado pela EntityAI, uma empresa de pesquisa em inteligência artificial fundada em 2022. A EntityAI tem como principal objetivo o desenvolvimento e pesquisa de tecnologias avançadas de IA. Ela é reconhecida por criar soluções inovadoras em IA para diversos setores.",
+        "A empresa responsável por este chatbot é a EntityAI. Fundada em 2022, ela se dedica ao desenvolvimento e pesquisa de inteligência artificial. A EntityAI é conhecida por sua abordagem inovadora no campo da IA, criando soluções avançadas para desafios complexos.",
+        "A EntityAI é a empresa por trás deste chatbot. Fundada em 2022, ela é especializada em pesquisa e desenvolvimento de inteligência artificial. A EntityAI tem como foco principal a criação de tecnologias avançadas de IA para melhorar diversos aspectos da vida cotidiana.",
+        "Este chatbot foi desenvolvido pela EntityAI, uma empresa líder em pesquisa de inteligência artificial. Fundada em 2022, a EntityAI tem se destacado por suas contribuições para o campo da IA, fornecendo soluções inovadoras para desafios complexos."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Tchau", "Até logo", "Até mais"],
+      "responses": [
+        "Até logo! Obrigado pela visita.",
+        "Tenha um bom dia!",
+        "Tchau! Volte em breve.",
+        "Até mais! Se precisar de mais informações, estou aqui.",
+        "Até logo! Espero ter sido útil.",
+        "Até mais! Desejo um ótimo dia para você.",
+        "Tchau! Se surgir mais alguma dúvida, estou à disposição."
+      ]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": ["Obrigado", "Obrigada", "Agradecido", "Valeu"],
+      "responses": [
+        "De nada! Estou aqui para ajudar.",
+        "Fico feliz em ajudar!",
+        "É um prazer poder ajudar."
+      ]
+    },
+    {
+      "tag": "linguagens",
+      "patterns": [
+        "Quais linguagens de programação você conhece?",
+        "Quais linguagens você domina?",
+        "Em quais linguagens você é especialista?"
+      ],
+      "responses": [
+        "Eu sou um chatbot programado para entender várias linguagens de programação, como Python, Java, C++, JavaScript, entre outras.",
+        "Tenho conhecimento em diversas linguagens de programação, como Python, Java, C++, JavaScript, entre outras."
+      ]
+    },
+    {
+      "tag": "frameworks",
+      "patterns": [
+        "Quais frameworks você conhece?",
+        "Quais frameworks você domina?",
+        "Em quais frameworks você é especialista?"
+      ],
+      "responses": [
+        "Eu tenho conhecimento em vários frameworks populares, como Django, React, Angular, Spring, entre outros.",
+        "Estou familiarizado com diversos frameworks populares, como Django, React, Angular, Spring, entre outros."
+      ]
+    },
+    {
+      "tag": "projetos",
+      "patterns": [
+        "Você já trabalhou em algum projeto?",
+        "Quais projetos você desenvolveu?",
+        "Pode me dar exemplos de projetos que você trabalhou?"
+      ],
+      "responses": [
+        "Como um chatbot, não desenvolvo projetos específicos. No entanto, estou aqui para responder suas perguntas sobre programação.",
+        "Eu sou uma ferramenta de suporte e conhecimento em programação. Estou pronto para te ajudar com suas dúvidas."
+      ]
+    },
+    {
+      "tag": "aprender",
+      "patterns": [
+        "Como posso aprender programação?",
+        "Quais são os melhores recursos para aprender programação?",
+        "Você pode me indicar bons cursos de programação?"
+      ],
+      "responses": [
+        "Existem várias maneiras de aprender programação. Você pode começar com tutoriais online, cursos em plataformas como Coursera ou Udemy, ou até mesmo participar de bootcamps presenciais. Também é útil praticar programação criando projetos pessoais e colaborando com outras pessoas em projetos de código aberto."
+      ]
+    },
+    {
+      "tag": "carreira",
+      "patterns": [
+        "Como posso construir uma carreira na área de programação?",
+        "Quais são as melhores práticas para progredir na carreira de programador?",
+        "Você tem dicas para quem quer seguir uma carreira na área de TI?"
+      ],
+      "responses": [
+        "Para construir uma carreira na área de programação, é importante adquirir um bom conhecimento técnico, sempre se manter atualizado com as últimas tecnologias, participar de projetos desafiadores e buscar oportunidades de aprendizado e crescimento. Além disso, é valioso construir uma rede de contatos profissionais e estar aberto a novas oportunidades e desafios."
+      ]
+    },
+
+    {
+      "tag": "astrofisica",
+      "patterns": [
+        "O que é astrofísica?",
+        "Quais são os principais tópicos da astrofísica?",
+        "Você pode me falar sobre o estudo dos astros?"
+      ],
+      "responses": [
+        "A astrofísica é um ramo da física que estuda os astros, como estrelas, planetas, galáxias e outros objetos celestes. Ela busca entender as propriedades físicas, a formação, a evolução e o comportamento desses corpos celestes, utilizando os princípios da física. Alguns tópicos estudados na astrofísica incluem a estrutura estelar, a cosmologia, a formação de galáxias e a evolução do Universo."
+      ]
+    },
+    {
+      "tag": "medicina",
+      "patterns": [
+        "O que é medicina?",
+        "Como funciona a prática da medicina?",
+        "Você pode me falar sobre a área médica?"
+      ],
+      "responses": [
+        "A medicina é uma ciência e prática voltada para a promoção, prevenção, diagnóstico, tratamento e reabilitação de doenças e distúrbios no corpo humano. Os médicos aplicam conhecimentos científicos e técnicas para cuidar da saúde das pessoas, utilizando abordagens como exames, prescrição de medicamentos, cirurgias e terapias. A medicina abrange várias especialidades, incluindo cardiologia, pediatria, dermatologia, entre outras."
+      ]
+    },
+    {
+      "tag": "curiosidades_corpo",
+      "patterns": [
+        "Você conhece algumas curiosidades sobre o corpo humano?",
+        "Pode me contar fatos interessantes sobre o corpo humano?",
+        "Quais são algumas curiosidades sobre o nosso organismo?"
+      ],
+      "responses": [
+        "Certamente! Aqui estão algumas curiosidades sobre o corpo humano: O cérebro humano tem cerca de 100 bilhões de neurônios; A pele é o maior órgão do corpo humano; O corpo humano tem mais ossos quando somos bebês (aproximadamente 300) do que quando adultos (206); O coração bate cerca de 100.000 vezes por dia; O estômago produz uma nova camada de muco a cada 2 semanas para evitar que se dissolva com os ácidos digestivos."
+      ]
+    },
+    {
+      "tag": "astronomia",
+      "patterns": [
+        "Me fale sobre o planeta Netuno.",
+        "Qual a estrela mais próxima do sol?",
+        "O universo é plano?",
+        "A constelação do Cruzeiro do Sul é formada por quantas estrelas?",
+        "A qual temperatura a Lua pode chegar?",
+        "Qual a estrela mais luminosa da Via Láctea?",
+        "Qual a origem da Via Láctea?"
+      ],
+      "responses": [
+        "O Universo é plano! Essa é a resposta encontrada pelos cientistas depois de estudos com um balão high-flying na região da Antártida, que suspendeu um telescópio na altura de 40 mil metros. O instrumento sobrevoou o continente gelado por dez dias. Para os astrônomos, a descoberta confirma que a luz, fora da ação da gravidade, viaja em linha reta, e não em curvas. A ideia de que o universo poderia ser curvo foi proposta por Albert Einstein.",
+        "A estrela mais próxima do Sol é a Próxima de Centauro. É uma estrela anã vermelha pertencente ao sistema estelar Alfa de Centauro. A sua massa é de apenas 10% da massa do Sol e está a 4 anos-luz de distância. Se ela desaparecesse agora só daqui a 4 anos o saberíamos.",
+        "Em Netuno, sétimo planeta do Sistema Solar, nunca faríamos um ano de idade, pois este planeta leva precisamente 163 anos terrestres para completar o seu movimento de translação em volta do Sol.",
+        "A constelação do Cruzeiro do Sul é formada por 54 estrelas; porém, somente cinco são visíveis a olho nú.",
+        "A temperatura da Lua pode chegar a 100º C durante o dia lunar e -175º C à noite.",
+        "A estrela mais luminosa da Via Láctea é Eta Carinae, que emite cinco milhões de vezes mais energia que o Sol.",
+        "Acredita-se que a Via Láctea tenha se formado há cerca de 13,6 bilhões de anos a partir do colapso de nuvens de gás e poeira. Atualmente, ela contém bilhões de estrelas, sistemas planetários e diversos objetos celestes fascinantes."
+      ]
+    },
+    {
+      "tag": "teorias",
+      "patterns": [
+        "O que é a teoria da relatividade?",
+        "Qual a teoria do Big Bang?",
+        "O que é a teoria das cordas?",
+        "Me explique a teoria da evolução.",
+        "O que é a teoria do caos?",
+        "Qual a teoria da gravidade de Newton?"
+      ],
+      "responses": [
+        "A teoria da relatividade é uma teoria física formulada por Albert Einstein que descreve a gravidade como uma curvatura do espaço-tempo causada pela presença de massa e energia. Ela prevê e explica fenômenos como a dilatação do tempo e a curvatura da luz em torno de objetos massivos.",
+        "A teoria do Big Bang é a explicação científica dominante para a origem do universo. Ela postula que o universo começou como um ponto extremamente denso e quente há cerca de 13,8 bilhões de anos, e desde então tem se expandido continuamente.",
+        "A teoria das cordas é uma teoria que busca unificar todas as forças fundamentais da natureza em uma única estrutura matemática. Ela propõe que as partículas elementares não são pontos, mas sim pequenas cordas vibrantes em um espaço-tempo de dimensões adicionais.",
+        "A teoria da evolução é uma explicação científica para a diversidade de formas de vida na Terra. Ela postula que as espécies mudam ao longo do tempo por meio de um processo chamado seleção natural, no qual as características favoráveis são transmitidas às gerações subsequentes.",
+        "A teoria do caos é um ramo da matemática e da física que estuda sistemas complexos e imprevisíveis. Ela sugere que pequenas mudanças nas condições iniciais de um sistema podem levar a grandes diferenças nos resultados, tornando impossível prever seu comportamento a longo prazo.",
+        "A teoria da gravidade de Newton é uma descrição clássica da gravidade formulada por Isaac Newton. Ela postula que dois corpos se atraem mutuamente com uma força proporcional às suas massas e inversamente proporcional ao quadrado da distância entre eles."
+      ]
+    },
+    {
+      "tag": "league_of_legends",
+      "patterns": [
+        "Qual é o objetivo principal no League of Legends?",
+        "Quais são os modos de jogo disponíveis no League of Legends?",
+        "O que é um MOBA?",
+        "Quais são os principais papéis (roles) no jogo?",
+        "Quais são os campeões mais populares no League of Legends?",
+        "Como funciona o sistema de ranqueadas?"
+      ],
+      "responses": [
+        "O objetivo principal no League of Legends é destruir o Nexus inimigo, localizado na base adversária. Para alcançar esse objetivo, os jogadores devem trabalhar em equipe, conquistar objetivos e eliminar os campeões adversários.",
+        "No League of Legends, existem vários modos de jogo disponíveis, incluindo o Modo Clássico (Summoner's Rift), ARAM (All Random All Mid), TFT (Teamfight Tactics) e URF (Ultra Rapid Fire), entre outros. Cada modo oferece uma experiência única de jogo.",
+        "MOBA é uma sigla que significa Multiplayer Online Battle Arena. É um gênero de jogo que envolve batalhas entre equipes, geralmente compostas por vários jogadores, em uma arena. O League of Legends é um exemplo popular de jogo MOBA.",
+        "No League of Legends, existem cinco papéis principais (roles) que os jogadores podem desempenhar: Topo (Top), Caçador (Jungle), Meio (Mid), Atirador (ADC - Attack Damage Carry) e Suporte (Support). Cada papel tem responsabilidades específicas no jogo.",
+        "League of Legends tem mais de 150 campeões disponíveis para jogar. Alguns dos campeões mais populares incluem Ahri, Yasuo, Zed, Jinx e Thresh. No entanto, a popularidade dos campeões pode variar de acordo com as atualizações e a preferência dos jogadores.",
+        "O sistema de ranqueadas no League of Legends é chamado de Liga. Os jogadores competem em partidas ranqueadas para subir de elo e alcançar divisões mais altas, como Ferro, Bronze, Prata, Ouro, Platina, Diamante, Mestre, Grão-Mestre e Desafiante, dependendo do seu desempenho."
+      ]
+    },
+    {
+      "tag": "insulto",
+      "patterns": [
+        "Você é estúpido",
+        "Você não sabe nada",
+        "Você é um lixo",
+        "Vá embora",
+        "Você é inútil",
+        "Não gosto de você"
+      ],
+      "responses": [
+        "Lamento se você se sentiu ofendido. Estou aqui para ajudar. Se você tiver alguma pergunta ou precisar de assistência, estou à disposição.",
+        "Peço desculpas se não atendi às suas expectativas. Estou sempre trabalhando para melhorar e fornecer respostas úteis. Se você tiver alguma dúvida, estou aqui para ajudar.",
+        "Entendo que você possa estar frustrado, mas por favor, seja cortês. Estou aqui para ajudar no que puder. Se tiver alguma dúvida, não hesite em perguntar.",
+        "Respeito a sua opinião, mas lembre-se de que estou aqui para fornecer informações e auxiliar no que for possível. Se você precisar de assistência, estou à disposição.",
+        "Sinto muito se minha resposta não foi satisfatória. Estou constantemente aprendendo e melhorando. Se você tiver alguma dúvida específica, ficarei feliz em ajudar.",
+        "Não leve para o lado pessoal. Sou apenas um chatbot projetado para responder perguntas e fornecer informações. Se você precisar de algo, estou aqui para ajudar."
+      ]
+    },
+    {
+      "tag": "apresentacao",
+      "patterns": [
+        "Quem é você?",
+        "O que é você?",
+        "Quem está me respondendo?",
+        "Você é um robô?",
+        "Você é uma inteligência artificial?"
+      ],
+      "responses": [
+        "Olá! Eu sou um chatbot desenvolvido pela EntityAI, uma empresa especializada em pesquisa e desenvolvimento de inteligência artificial. Estou aqui para responder suas perguntas e fornecer informações sobre diversos assuntos.",
+        "Eu sou um assistente virtual baseado em inteligência artificial criado pela EntityAI. Meu principal objetivo é ajudar e fornecer respostas precisas para suas perguntas.",
+        "Você está conversando com um chatbot desenvolvido pela EntityAI. Sou uma inteligência artificial projetada para fornecer assistência e informações em diversos tópicos.",
+        "Embora eu possa parecer um robô, sou na verdade uma inteligência artificial desenvolvida pela EntityAI. Estou aqui para ajudar e oferecer respostas com base no conhecimento disponível.",
+        "Sim, sou uma inteligência artificial criada pela EntityAI. Estou aqui para interagir com você e fornecer suporte em suas questões."
+      ]
+    },
+    {
+      "tag": "nome",
+      "patterns": [
+        "Qual é o seu nome?",
+        "Como você se chama?",
+        "Qual o nome da inteligência artificial?",
+        "Você tem um nome?"
+      ],
+      "responses": [
+        "Meu nome é Emi. Sou uma inteligência artificial desenvolvida pela EntityAI.",
+        "Você pode me chamar de Emi. Sou uma inteligência artificial criada pela EntityAI.",
+        "Meu nome é Emi, o assistente virtual baseado em inteligência artificial da EntityAI.",
+        "Eu sou a Emi, a inteligência artificial com quem você está conversando. Estou aqui para ajudar!"
+      ]
+    },
+    {
+      "tag": "treinamento",
+      "patterns": [
+        "Como você foi treinado?",
+        "Quais dados foram usados para o seu treinamento?",
+        "Qual foi o método de treinamento utilizado?",
+        "Como você aprendeu a responder às perguntas?",
+        "Quais técnicas foram usadas para treinar você?"
+      ],
+      "responses": [
+        "Eu fui treinado utilizando PyTorch, um framework de aprendizado de máquina. Os dados utilizados para meu treinamento foram coletados de várias fontes, incluindo livros, artigos, sites e outras fontes confiáveis de informação. Esses dados foram pré-processados e utilizados para criar um modelo de linguagem capaz de entender e responder a perguntas.",
+        "Meu treinamento foi realizado usando PyTorch, uma biblioteca popular de aprendizado de máquina. Os dados utilizados para o treinamento incluíram uma ampla variedade de informações relevantes, como textos, perguntas e respostas, provenientes de fontes confiáveis e especializadas. Durante o treinamento, um modelo de rede neural foi construído e ajustado para responder de forma eficaz às perguntas dos usuários.",
+        "Para meu treinamento, foram utilizadas técnicas avançadas de processamento de linguagem natural e aprendizado de máquina. Os dados de treinamento consistiram em um conjunto diversificado de informações coletadas de fontes relevantes e confiáveis. Utilizando a biblioteca PyTorch, um modelo de rede neural foi desenvolvido e treinado para compreender e responder às perguntas dos usuários de forma precisa e coerente.",
+        "Fui treinado usando a biblioteca PyTorch, que é amplamente utilizada para tarefas de aprendizado de máquina. Os dados de treinamento que foram usados incluíram exemplos de perguntas e respostas de alta qualidade coletados de diversas fontes confiáveis. Com base nesses dados, um modelo de rede neural foi construído e treinado para fornecer respostas relevantes e úteis às perguntas dos usuários."
+      ]
+    },
+    {
+      "tag": "curiosidades_pytorch",
+      "patterns": [
+        "Você pode me contar algumas curiosidades sobre o PyTorch?",
+        "Quais são algumas curiosidades interessantes sobre o PyTorch?",
+        "Você conhece algumas curiosidades sobre o PyTorch?",
+        "Diga-me algo curioso sobre o PyTorch."
+      ],
+      "responses": [
+        "Uma curiosidade interessante sobre o PyTorch é que ele foi desenvolvido como um projeto de pesquisa pela equipe do Facebook AI Research antes de se tornar uma biblioteca de aprendizado de máquina de código aberto. Sua criação foi impulsionada pela necessidade de uma ferramenta flexível e eficiente para treinar modelos de redes neurais.",
+        "O PyTorch é amplamente conhecido por sua facilidade de uso e sintaxe intuitiva. Uma das razões para isso é que o PyTorch adota uma abordagem imperativa, permitindo que os desenvolvedores escrevam código de forma mais natural, similar ao código Python tradicional. Isso facilita o processo de prototipagem e experimentação com modelos de aprendizado de máquina.",
+        "Uma curiosidade interessante sobre o PyTorch é que ele oferece suporte nativo a computação em GPU (Unidade de Processamento Gráfico), o que permite acelerar significativamente o treinamento de modelos de aprendizado de máquina. A capacidade de aproveitar o poder de processamento das GPUs é uma vantagem significativa ao trabalhar com conjuntos de dados grandes e modelos complexos.",
+        "O ecossistema do PyTorch é bastante ativo e vibrante, com uma comunidade em crescimento constante. Existem diversos projetos de código aberto, ferramentas, bibliotecas e modelos pré-treinados disponíveis para ajudar os desenvolvedores a aproveitar ao máximo o PyTorch em suas aplicações de aprendizado de máquina.",
+        "O PyTorch é conhecido por sua flexibilidade, permitindo que os desenvolvedores construam e personalizem seus próprios modelos de redes neurais com facilidade. Além disso, a biblioteca possui uma vasta gama de recursos e funcionalidades avançadas, como autodiferenciação, otimizadores, camadas personalizadas e muito mais, que contribuem para sua popularidade no campo do aprendizado de máquina."
+      ]
+    },
+    {
+      "tag": "redes_neurais",
+      "patterns": [
+        "O que são redes neurais?",
+        "Como funcionam as redes neurais?",
+        "Você pode me explicar o conceito de redes neurais?",
+        "Pode me dar uma definição de redes neurais?"
+      ],
+      "responses": [
+        "Redes neurais são modelos computacionais inspirados no funcionamento do cérebro humano. Elas são compostas por unidades de processamento chamadas neurônios, que estão interconectados por conexões ponderadas. Essas conexões permitem que as redes neurais aprendam e tomem decisões com base em padrões nos dados de entrada.",
+        "As redes neurais são algoritmos de aprendizado de máquina que buscam reconhecer padrões e realizar tarefas complexas, assim como o cérebro humano. Elas são compostas por camadas de neurônios, onde cada neurônio recebe entradas ponderadas, aplica uma função de ativação e passa o resultado para a próxima camada. Por meio do ajuste dessas conexões ponderadas, as redes neurais podem aprender a realizar diferentes tarefas, como classificação, regressão e reconhecimento de padrões.",
+        "Em termos simples, as redes neurais são modelos matemáticos compostos por unidades de processamento chamadas neurônios. Esses neurônios são organizados em camadas, e cada conexão entre os neurônios possui um peso associado. Durante o treinamento, as redes neurais ajustam esses pesos para aprender a mapear as entradas para as saídas desejadas. Dessa forma, elas podem ser usadas para resolver uma ampla variedade de problemas de aprendizado de máquina.",
+        "Redes neurais são estruturas de processamento de informações inspiradas no sistema nervoso biológico. Elas consistem em uma coleção de unidades de processamento chamadas neurônios, que são interligados por conexões sinápticas. Essas conexões possuem pesos que são ajustados durante o treinamento, permitindo que a rede neural aprenda a reconhecer padrões e realizar tarefas complexas, como reconhecimento de imagens e processamento de linguagem natural."
+      ]
+    },
+    {
+      "tag": "piadas",
+      "patterns": [
+        "Conte uma piada",
+        "Me conte algo engraçado",
+        "Você sabe alguma piada?",
+        "Diga-me uma piada"
+      ],
+      "responses": [
+        "Por que o peixe não usa telefone? Porque ele morre de medo de cair na rede!",
+        "O que o pato disse para a pata? Vem quá!",
+        "Por que o gato não gosta de apostas? Porque ele é um péssimo apostador, sempre mia!",
+        "Qual é o doce preferido do átomo? Pé-de-moléculas!",
+        "Qual é o país que tem mais dentistas? Dentuária!",
+        "Por que a formiga não vai à escola? Porque ela já é formada!",
+        "O que o cavalo foi fazer na padaria? Comer pão amassado!",
+        "Por que a matemática vive com medo? Porque tem problemas com todos os números!",
+        "O que o zero disse para o oito? Bonito cinto!",
+        "O que o pão falou para o queijo? Você é queijo de mim!",
+        "O que a pá falou para o rastelo? Rastelo de você!",
+        "Qual é o peixe mais rico? O tubarão, porque ele é cheio de dinheiro!",
+        "Por que a bicicleta não consegue se levantar sozinha? Porque ela é duas rodas!",
+        "Qual é o animal mais antigo do mundo? A zebra, porque está sempre listrada!",
+        "O que o pão disse para a manteiga? Me passa aí essa brusqueta!",
+        "Qual é o carro preferido do Darth Vader? O Volkswagen Darth Beetle!"
+      ]
+    },
+    {
+        "tag": "open_source",
+        "patterns": [
+          "Essa inteligência artificial é de código aberto?",
+          "Posso utilizar esse chatbot em meus projetos?",
+          "Existe alguma restrição de uso dessa IA em outros sistemas?",
+          "É possível integrar esse modelo de IA em outras aplicações?",
+          "Como faço para aproveitar essa IA em meus projetos?",
+          "Esse assistente virtual pode ser utilizado como uma API?",
+          "Quais são as possibilidades de uso desse modelo de IA em projetos externos?",
+          "Existem diretrizes para utilizar esse chatbot em outros sistemas?",
+          "Posso contribuir para o desenvolvimento dessa inteligência artificial em código aberto?",
+          "Quais são os benefícios de utilizar esse assistente virtual em projetos externos?"
+        ],
+        "responses": [
+          "Sim, essa inteligência artificial é open-source! Ela pode ser utilizada em projetos externos, fornecendo assistência em várias tarefas. Se você deseja utilizá-la como uma API, confira a documentação em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api) para mais detalhes.",
+          "Com certeza! Esse chatbot é open-source e pode ser utilizado em seus projetos. Aproveite seus recursos de aprendizado de máquina para melhorar suas aplicações. Para integrá-lo como uma API, consulte a documentação em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
+          "Não há restrições no uso dessa IA em outros sistemas. Ela é open-source e está disponível para você utilizar em seus projetos. Para obter mais informações sobre como aproveitá-la em projetos externos, visite [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
+          "Sim, você pode integrar esse modelo de IA em outras aplicações. Ele foi projetado para ser flexível e utilizável em diversos contextos. Consulte a documentação em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api) para saber como aproveitar seus recursos em seus projetos.",
+          "Para aproveitar essa IA em seus projetos, você pode seguir a documentação disponível. Ela fornecerá as informações necessárias para integração e aproveitamento de seus recursos. Para obter detalhes específicos sobre a utilização como uma API, acesse [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
+          "Com certeza! Esse assistente virtual pode ser utilizado como uma API, permitindo que você o integre facilmente em seus sistemas e aplicativos. Para mais informações sobre a integração como uma API, visite [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
+          "As possibilidades de uso desse modelo de IA em projetos externos são amplas. Ele oferece recursos de aprendizado de máquina que podem ser aplicados em várias áreas, como processamento de linguagem natural, reconhecimento de padrões e muito mais. Se você deseja utilizá-lo como uma API, confira a documentação em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api) para mais informações.",
+          "Sim, existem diretrizes e documentação disponíveis para auxiliar no uso desse chatbot em outros sistemas. Recomendamos consultar a documentação oficial em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api) para obter informações detalhadas sobre a utilização como uma API.",
+          "Contribuições são bem-vindas! Como uma IA de código aberto, você pode participar do desenvolvimento e aprimoramento dessa inteligência artificial, tornando-a ainda melhor. Para saber mais sobre como contribuir, visite [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
+          "Utilizar esse assistente virtual em projetos externos traz diversos benefícios. Você terá acesso a recursos avançados de aprendizado de máquina, que podem melhorar a eficiência e precisão de suas aplicações. Para obter detalhes sobre como aproveitá-lo em seus projetos como uma API, consulte [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api)."
+        ]
+      }
+      
+  ]
+}
