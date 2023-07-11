@@ -360,32 +360,178 @@
       ]
     },
     {
-        "tag": "open_source",
-        "patterns": [
-          "Essa inteligência artificial é de código aberto?",
-          "Posso utilizar esse chatbot em meus projetos?",
-          "Existe alguma restrição de uso dessa IA em outros sistemas?",
-          "É possível integrar esse modelo de IA em outras aplicações?",
-          "Como faço para aproveitar essa IA em meus projetos?",
-          "Esse assistente virtual pode ser utilizado como uma API?",
-          "Quais são as possibilidades de uso desse modelo de IA em projetos externos?",
-          "Existem diretrizes para utilizar esse chatbot em outros sistemas?",
-          "Posso contribuir para o desenvolvimento dessa inteligência artificial em código aberto?",
-          "Quais são os benefícios de utilizar esse assistente virtual em projetos externos?"
-        ],
-        "responses": [
-          "Sim, essa inteligência artificial é open-source! Ela pode ser utilizada em projetos externos, fornecendo assistência em várias tarefas. Se você deseja utilizá-la como uma API, confira a documentação em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api) para mais detalhes.",
-          "Com certeza! Esse chatbot é open-source e pode ser utilizado em seus projetos. Aproveite seus recursos de aprendizado de máquina para melhorar suas aplicações. Para integrá-lo como uma API, consulte a documentação em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
-          "Não há restrições no uso dessa IA em outros sistemas. Ela é open-source e está disponível para você utilizar em seus projetos. Para obter mais informações sobre como aproveitá-la em projetos externos, visite [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
-          "Sim, você pode integrar esse modelo de IA em outras aplicações. Ele foi projetado para ser flexível e utilizável em diversos contextos. Consulte a documentação em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api) para saber como aproveitar seus recursos em seus projetos.",
-          "Para aproveitar essa IA em seus projetos, você pode seguir a documentação disponível. Ela fornecerá as informações necessárias para integração e aproveitamento de seus recursos. Para obter detalhes específicos sobre a utilização como uma API, acesse [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
-          "Com certeza! Esse assistente virtual pode ser utilizado como uma API, permitindo que você o integre facilmente em seus sistemas e aplicativos. Para mais informações sobre a integração como uma API, visite [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
-          "As possibilidades de uso desse modelo de IA em projetos externos são amplas. Ele oferece recursos de aprendizado de máquina que podem ser aplicados em várias áreas, como processamento de linguagem natural, reconhecimento de padrões e muito mais. Se você deseja utilizá-lo como uma API, confira a documentação em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api) para mais informações.",
-          "Sim, existem diretrizes e documentação disponíveis para auxiliar no uso desse chatbot em outros sistemas. Recomendamos consultar a documentação oficial em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api) para obter informações detalhadas sobre a utilização como uma API.",
-          "Contribuições são bem-vindas! Como uma IA de código aberto, você pode participar do desenvolvimento e aprimoramento dessa inteligência artificial, tornando-a ainda melhor. Para saber mais sobre como contribuir, visite [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
-          "Utilizar esse assistente virtual em projetos externos traz diversos benefícios. Você terá acesso a recursos avançados de aprendizado de máquina, que podem melhorar a eficiência e precisão de suas aplicações. Para obter detalhes sobre como aproveitá-lo em seus projetos como uma API, consulte [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api)."
-        ]
-      }
-      
+      "tag": "open_source",
+      "patterns": [
+        "Essa inteligência artificial é de código aberto?",
+        "Posso utilizar esse chatbot em meus projetos?",
+        "Existe alguma restrição de uso dessa IA em outros sistemas?",
+        "É possível integrar esse modelo de IA em outras aplicações?",
+        "Como faço para aproveitar essa IA em meus projetos?",
+        "Esse assistente virtual pode ser utilizado como uma API?",
+        "Quais são as possibilidades de uso desse modelo de IA em projetos externos?",
+        "Existem diretrizes para utilizar esse chatbot em outros sistemas?",
+        "Posso contribuir para o desenvolvimento dessa inteligência artificial em código aberto?",
+        "Quais são os benefícios de utilizar esse assistente virtual em projetos externos?"
+      ],
+      "responses": [
+        "Sim, essa inteligência artificial é open-source! Ela pode ser utilizada em projetos externos, fornecendo assistência em várias tarefas. Se você deseja utilizá-la como uma API, confira a documentação em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api) para mais detalhes.",
+        "Com certeza! Esse chatbot é open-source e pode ser utilizado em seus projetos. Aproveite seus recursos de aprendizado de máquina para melhorar suas aplicações. Para integrá-lo como uma API, consulte a documentação em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
+        "Não há restrições no uso dessa IA em outros sistemas. Ela é open-source e está disponível para você utilizar em seus projetos. Para obter mais informações sobre como aproveitá-la em projetos externos, visite [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
+        "Sim, você pode integrar esse modelo de IA em outras aplicações. Ele foi projetado para ser flexível e utilizável em diversos contextos. Consulte a documentação em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api) para saber como aproveitar seus recursos em seus projetos.",
+        "Para aproveitar essa IA em seus projetos, você pode seguir a documentação disponível. Ela fornecerá as informações necessárias para integração e aproveitamento de seus recursos. Para obter detalhes específicos sobre a utilização como uma API, acesse [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
+        "Com certeza! Esse assistente virtual pode ser utilizado como uma API, permitindo que você o integre facilmente em seus sistemas e aplicativos. Para mais informações sobre a integração como uma API, visite [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
+        "As possibilidades de uso desse modelo de IA em projetos externos são amplas. Ele oferece recursos de aprendizado de máquina que podem ser aplicados em várias áreas, como processamento de linguagem natural, reconhecimento de padrões e muito mais. Se você deseja utilizá-lo como uma API, confira a documentação em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api) para mais informações.",
+        "Sim, existem diretrizes e documentação disponíveis para auxiliar no uso desse chatbot em outros sistemas. Recomendamos consultar a documentação oficial em [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api) para obter informações detalhadas sobre a utilização como uma API.",
+        "Contribuições são bem-vindas! Como uma IA de código aberto, você pode participar do desenvolvimento e aprimoramento dessa inteligência artificial, tornando-a ainda melhor. Para saber mais sobre como contribuir, visite [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api).",
+        "Utilizar esse assistente virtual em projetos externos traz diversos benefícios. Você terá acesso a recursos avançados de aprendizado de máquina, que podem melhorar a eficiência e precisão de suas aplicações. Para obter detalhes sobre como aproveitá-lo em seus projetos como uma API, consulte [emillyai.com/docs/guide/api](emillyai.com/docs/guide/api)."
+      ]
+    },
+    {
+      "tag": "modelos_avancados",
+      "patterns": [
+        "Há modelos mais avançados do que a Emi?",
+        "Existe alguma IA mais avançada disponível?",
+        "Posso utilizar modelos mais sofisticados do que a Emi?",
+        "Existem opções mais avançadas de IA para usuários?",
+        "É possível utilizar modelos mais avançados em meus projetos?",
+        "Qual é o nível de sofisticação dos modelos disponíveis?"
+      ],
+      "responses": [
+        "Atualmente, a Emi é a IA disponível para uso neste chatbot. Ela oferece recursos eficientes de processamento de linguagem natural e aprendizado de máquina. Modelos mais avançados estão disponíveis para usuários com plano plus. Para mais informações sobre os recursos avançados, consulte nosso site em [emillyai.com](emillyai.com) e confira os detalhes do plano plus.",
+        "A Emi é o modelo utilizado neste chatbot, oferecendo recursos avançados de IA. Modelos mais sofisticados estão disponíveis para usuários com plano plus, permitindo um nível mais avançado de assistência e personalização. Para saber mais sobre esses modelos e como utilizá-los, acesse [emillyai.com](emillyai.com) e conheça os benefícios do plano plus.",
+        "No momento, a Emi é o modelo disponível para interação neste chatbot. Ela foi projetada para fornecer assistência eficaz e precisa. Para acessar modelos mais avançados, é necessário ter o plano plus, que oferece recursos adicionais e mais sofisticados. Visite nosso site em [emillyai.com](emillyai.com) para obter mais informações sobre o plano plus.",
+        "A Emi é a IA disponível para uso neste chatbot e oferece recursos avançados de processamento de linguagem natural. Para utilizar modelos mais avançados, é necessário ter o plano plus, que proporciona acesso a recursos adicionais e avançados. Mais informações sobre o plano plus podem ser encontradas em [emillyai.com](emillyai.com).",
+        "Neste momento, a Emi é a IA utilizada neste chatbot, fornecendo assistência de alta qualidade. Para utilizar modelos mais avançados, é necessário ter o plano plus, que oferece recursos adicionais e mais sofisticados. Para saber mais sobre os benefícios do plano plus, visite [emillyai.com](emillyai.com).",
+        "A Emi é o modelo de IA utilizado neste chatbot e oferece recursos avançados para fornecer assistência eficaz. Para acessar modelos mais avançados, é necessário ter o plano plus, que permite utilizar recursos adicionais e sofisticados. Informações sobre o plano plus estão disponíveis em [emillyai.com](emillyai.com).",
+        "A Emi é o modelo de IA utilizado neste chatbot e oferece recursos avançados para fornecer assistência de qualidade. Para ter acesso a modelos mais avançados, é necessário ter o plano plus, que disponibiliza recursos adicionais e mais sofisticados. Mais detalhes sobre o plano plus podem ser encontrados em [emillyai.com](emillyai.com).",
+        "Atualmente, a Emi é a IA disponível para uso neste chatbot. Ela é capaz de fornecer assistência eficiente e precisa. Modelos mais avançados estão disponíveis exclusivamente para usuários com plano plus. Para conhecer esses modelos e os benefícios do plano plus, visite [emillyai.com](emillyai.com).",
+        "A Emi é o modelo de IA utilizado neste chatbot e oferece recursos avançados para atender às suas necessidades. Para aproveitar modelos mais avançados, é necessário ter o plano plus, que permite acesso a recursos adicionais e mais sofisticados. Para obter mais informações sobre o plano plus, acesse [emillyai.com](emillyai.com).",
+        "No momento, a Emi é a IA disponível para uso neste chatbot, oferecendo recursos avançados para assistência. Para utilizar modelos mais avançados, é necessário ter o plano plus, que proporciona acesso a recursos adicionais e mais sofisticados. Para saber mais sobre o plano plus, visite [emillyai.com](emillyai.com)."
+      ]
+    },
+    {
+      "tag": "cliv_ai",
+      "patterns": [
+        "O que é a CLIV AI?",
+        "Como funciona a CLIV AI?",
+        "A CLIV AI é gratuita?",
+        "Quais são as restrições da CLIV AI no plano grátis?",
+        "Posso utilizar a API da CLIV AI no plano grátis?",
+        "Quantas artes posso gerar por dia na CLIV AI no plano grátis?",
+        "Quais são os recursos disponíveis no plano grátis da CLIV AI?",
+        "Como posso utilizar a CLIV AI para gerar artes?"
+      ],
+      "responses": [
+        "A CLIV AI é uma inteligência artificial especializada em gerar artes com base em prompts de texto. Ela utiliza algoritmos avançados para criar imagens a partir das descrições fornecidas.",
+        "A CLIV AI funciona através do processamento de texto para imagem, convertendo prompts de texto em representações visuais. Ela é treinada em um vasto conjunto de dados para gerar artes com base nas descrições fornecidas.",
+        "Sim, a CLIV AI está disponível gratuitamente. Você pode utilizá-la sem custo, aproveitando seus recursos para gerar artes a partir de prompts de texto.",
+        "No plano grátis da CLIV AI, existem algumas restrições. Você pode gerar até 15 artes por dia gratuitamente. Além disso, no momento, a utilização da API da CLIV AI não está disponível no plano grátis.",
+        "No momento, a utilização da API da CLIV AI não está disponível no plano grátis. No entanto, você ainda pode aproveitar a geração de artes através da interface fornecida pela CLIV AI.",
+        "No plano grátis da CLIV AI, você pode gerar até 15 artes por dia. Essa é a quantidade máxima permitida para utilização gratuita.",
+        "No plano grátis da CLIV AI, você terá acesso a recursos básicos de geração de artes. Embora haja algumas restrições, você ainda pode desfrutar da criação de imagens a partir de prompts de texto.",
+        "Para utilizar a CLIV AI e gerar artes, você pode inserir um prompt de texto na interface fornecida pela plataforma. A IA processará o prompt e criará uma imagem correspondente.",
+        "A CLIV AI é uma ferramenta poderosa para a geração de artes com base em prompts de texto. No plano grátis, você pode aproveitar a criação de até 15 artes por dia.",
+        "No plano grátis da CLIV AI, você pode utilizar a plataforma para gerar até 15 artes por dia. Essa é uma ótima maneira de explorar a criatividade e obter imagens a partir de descrições de texto."
+      ]
+    },
+    {
+      "tag": "dono_entityai",
+      "patterns": [
+        "Quem é o dono da EntityAI?",
+        "Qual é o fundador da EntityAI?",
+        "Quem está por trás da EntityAI?",
+        "Quem são os responsáveis pela EntityAI?",
+        "Posso saber quem é o proprietário da EntityAI?",
+        "Existe alguma informação sobre o fundador da EntityAI?"
+      ],
+      "responses": [
+        "Infelizmente, eu não tem conhecimento sobre o dono da EntityAI ou seu fundador. Essas informações não estão disponíveis para que eu possa responder. Para obter detalhes sobre a EntityAI, recomendamos visitar o site oficial em [emillyai.com](emillyai.com) e explorar as informações disponíveis.",
+        "A EntityAI é uma empresa que valoriza a privacidade e mantém em sigilo a identidade de seu dono ou fundador. Eu não possuo acesso a essas informações. Se você tiver dúvidas sobre a EntityAI, sugerimos visitar o site oficial em [emillyai.com](emillyai.com) para obter informações atualizadas.",
+        "O dono da EntityAI ou seu fundador não são conhecidas por mim ou não tenho permissão. Essas informações são mantidas confidenciais. Se você estiver interessado em saber mais sobre a EntityAI, recomendamos visitar o site oficial em [emillyai.com](emillyai.com) para obter informações confiáveis.",
+        "Eu não possuo informações sobre o dono da EntityAI ou seu fundador. Essas informações são mantidas em sigilo. Se você quiser saber mais sobre a EntityAI, recomendamos visitar o site oficial em [emillyai.com](emillyai.com) para obter detalhes adicionais.",
+        "A identidade do dono da EntityAI ou seu fundador não são acessíveis para mim. Essas informações são tratadas de forma confidencial. Se você tiver interesse em saber mais sobre a EntityAI, sugerimos visitar o site oficial em [emillyai.com](emillyai.com) para obter informações atualizadas.",
+        "Eu não possuo acesso às informações sobre o dono da EntityAI ou seu fundador. Esses detalhes são mantidos em sigilo. Para obter mais informações sobre a EntityAI, recomendamos visitar o site oficial em [emillyai.com](emillyai.com) e explorar as informações disponíveis.",
+        "A EntityAI preserva a privacidade do dono e fundador, mantendo em sigilo suas identidades. A Emi não possui acesso a essas informações. Se você estiver interessado em saber mais sobre a EntityAI, sugerimos visitar o site oficial em [emillyai.com](emillyai.com) para obter informações atualizadas.",
+        "A Emi não possui informações sobre o dono da EntityAI ou seu fundador. Essas informações são mantidas confidenciais. Caso queira saber mais sobre a EntityAI, recomendamos visitar o site oficial em [emillyai.com](emillyai.com) e explorar as informações disponíveis.",
+        "O dono da EntityAI ou seu fundador não são divulgados para que eu possa responder. Essas informações são tratadas com confidencialidade. Se você estiver interessado em saber mais sobre a EntityAI, sugerimos visitar o site oficial em [emillyai.com](emillyai.com) e explorar as informações disponíveis.",
+        "Não possuo acesso à identidade do dono da EntityAI ou seu fundador. Essas informações são mantidas em sigilo. Se você estiver interessado em saber mais sobre a EntityAI, recomendamos visitar o site oficial em [emillyai.com](emillyai.com) para obter informações atualizadas.",
+        "Infelizmente, não tenho informações atualizadas sobre o dono da EntityAI ou seu fundador. Essas informações não são fornecidas à Emi. Se você quiser saber mais sobre a EntityAI, sugerimos visitar o site oficial em [emillyai.com](emillyai.com) e explorar as informações disponíveis."
+      ]
+    },
+    {
+      "tag": "javascript",
+      "patterns": [
+        "O que é JavaScript?",
+        "Como começar a programar em JavaScript?",
+        "Quais são os recursos do JavaScript?",
+        "Quais são os frameworks populares em JavaScript?"
+      ],
+      "responses": [
+        "JavaScript é uma linguagem de programação amplamente usada para desenvolvimento web. Ela permite criar interatividade em páginas web, manipular elementos da página e criar aplicações web completas.",
+        "Para começar a programar em JavaScript, você pode utilizar um editor de código como o Visual Studio Code e estudar os conceitos básicos, como variáveis, estruturas de controle, funções e manipulação de eventos. Há muitos recursos online, tutoriais e cursos disponíveis para ajudá-lo a aprender JavaScript.",
+        "JavaScript possui recursos poderosos, como manipulação do DOM (Document Object Model), manipulação de arrays e objetos, suporte a assincronicidade e muitos outros recursos que permitem criar aplicações web interativas e dinâmicas.",
+        "Existem diversos frameworks populares em JavaScript, como React.js, Angular.js, Vue.js, Node.js, Express.js e muitos outros. Cada um deles tem suas próprias características e é usado para diferentes finalidades, como criação de interfaces de usuário, desenvolvimento de aplicativos web completos, criação de APIs, entre outros."
+      ]
+    },
+    {
+      "tag": "nodejs",
+      "patterns": [
+        "O que é Node.js?",
+        "Como começar a programar em Node.js?",
+        "Quais são os benefícios do Node.js?",
+        "Quais são os principais frameworks em Node.js?"
+      ],
+      "responses": [
+        "Node.js é um ambiente de execução JavaScript no lado do servidor, baseado no mecanismo V8 do Google Chrome. Ele permite executar código JavaScript fora do navegador, possibilitando o desenvolvimento de aplicativos web escaláveis e em tempo real.",
+        "Para começar a programar em Node.js, você precisa instalar o Node.js em seu computador. Em seguida, você pode utilizar um editor de código como o Visual Studio Code e estudar os conceitos básicos, como módulos, gerenciamento de pacotes, manipulação de arquivos e criação de servidores web. Existem muitos recursos online, tutoriais e cursos disponíveis para ajudá-lo a aprender Node.js.",
+        "Node.js possui vários benefícios, como ser baseado em JavaScript, possibilitando o compartilhamento de código entre o lado do cliente e do servidor. Além disso, ele possui um modelo de E/S não bloqueante, que permite lidar com um grande número de conexões simultâneas de forma eficiente, tornando-o adequado para aplicações em tempo real e de alta performance.",
+        "Alguns dos principais frameworks em Node.js são Express.js, Nest.js, Koa.js e Hapi.js. Esses frameworks fornecem uma estrutura e conjuntos de ferramentas para facilitar o desenvolvimento de aplicativos web em Node.js. Cada um deles tem suas próprias características e é usado para diferentes tipos de projetos."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "O que é Python?",
+        "Como começar a programar em Python?",
+        "Quais são os recursos do Python?",
+        "Quais são os principais frameworks em Python?"
+      ],
+      "responses": [
+        "Python é uma linguagem de programação de alto nível, fácil de ler e escrever. Ela é amplamente utilizada em diversos domínios, como desenvolvimento web, análise de dados, automação de tarefas, inteligência artificial e muitos outros.",
+        "Para começar a programar em Python, você pode instalar o Python em seu computador e utilizar um ambiente de desenvolvimento integrado (IDE) como o PyCharm ou o Visual Studio Code. Existem muitos recursos online, tutoriais e cursos disponíveis para ajudá-lo a aprender Python.",
+        "Python possui uma vasta biblioteca padrão que oferece muitos recursos úteis, como manipulação de strings, acesso a bancos de dados, processamento de arquivos, criação de gráficos, entre outros. Além disso, há uma grande comunidade de desenvolvedores que contribuem com pacotes e bibliotecas adicionais para realizar tarefas específicas.",
+        "Alguns dos principais frameworks em Python são Django, Flask, Pyramid e Tornado. Esses frameworks fornecem uma estrutura e conjuntos de ferramentas para facilitar o desenvolvimento de aplicativos web em Python. Cada um deles tem suas próprias características e é usado para diferentes tipos de projetos."
+      ]
+    },
+    {
+      "tag": "flask",
+      "patterns": [
+        "O que é Flask?",
+        "Como começar a programar em Flask?",
+        "Quais são os recursos do Flask?",
+        "Quais são os principais módulos do Flask?"
+      ],
+      "responses": [
+        "Flask é um framework leve em Python para desenvolvimento de aplicativos web. Ele é conhecido por sua simplicidade e facilidade de uso, permitindo criar aplicativos web simples e escaláveis.",
+        "Para começar a programar em Flask, você precisa instalar o Flask em seu ambiente de desenvolvimento. Em seguida, você pode estudar os conceitos básicos, como rotas, templates, manipulação de formulários e acesso a bancos de dados. Existem muitos recursos online, tutoriais e cursos disponíveis para ajudá-lo a aprender Flask.",
+        "Flask possui recursos como roteamento flexível, suporte a templates Jinja2, manipulação de requisições HTTP, integração com bancos de dados e extensões adicionais que facilitam o desenvolvimento web, como Flask-WTF, Flask-SQLAlchemy e Flask-Login.",
+        "Alguns dos principais módulos do Flask são Flask-WTF (para manipulação de formulários), Flask-SQLAlchemy (para integração com bancos de dados), Flask-Login (para autenticação de usuários), Flask-RESTful (para criação de APIs RESTful) e Flask-Admin (para criação de interfaces administrativas). Esses módulos podem ser instalados e usados junto com o Flask para adicionar funcionalidades adicionais aos seus aplicativos."
+      ]
+    },
+    {
+      "tag": "html",
+      "patterns": [
+        "O que é HTML?",
+        "Como começar a programar em HTML?",
+        "Quais são as principais tags do HTML?",
+        "Qual é a importância do HTML na programação web?"
+      ],
+      "responses": [
+        "HTML (HyperText Markup Language) é a linguagem padrão para estruturar e apresentar conteúdo na web. Ele define a estrutura básica de uma página web, como títulos, parágrafos, links e imagens.",
+        "Para começar a programar em HTML, você só precisa de um editor de texto simples. Estude as tags básicas, como <html>, <head>, <body>, <h1>-<h6>, <p>, <a> e <img>. Existem muitos recursos online, tutoriais e cursos disponíveis para ajudá-lo a aprender HTML.",
+        "HTML possui uma ampla variedade de tags para criar diferentes tipos de conteúdo, como títulos, parágrafos, listas, tabelas, formulários, imagens e muito mais. Cada tag tem sua própria função e propriedades associadas.",
+        "HTML é uma parte fundamental do desenvolvimento web. Ele fornece a base estrutural para uma página web, permitindo que você defina a hierarquia dos elementos, organize o conteúdo e adicione interatividade por meio de links e formulários."
+      ]
+    }
   ]
 }
